@@ -10,6 +10,13 @@
     color: #ffffff;
 }
 
+#class-img,
+#instructor-img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
+
 .knewave-regular {
     font-family: "Knewave", system-ui;
     font-weight: 400;
@@ -86,6 +93,20 @@
     color: #ffd700;
 }
 
+.classes .card:hover,
+.instructors .card:hover {
+    box-shadow: 1px 1px 5px #245f73;
+}
+
+.contact img {
+    max-height: 300px;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 1rem;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     background-color: #f2f0ef;
@@ -98,7 +119,9 @@ footer {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
     font-family: "Lexend", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
