@@ -105,6 +105,8 @@
 .form-signin {
     max-width: 330px;
     padding: 1rem;
+    background-color: rgba(36, 95, 115, 0.2);
+    border-radius: 10px;
 }
 
 body {
